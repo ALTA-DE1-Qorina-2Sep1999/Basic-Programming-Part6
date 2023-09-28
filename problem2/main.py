@@ -1,6 +1,5 @@
 def caesar(offset, input_str):
     result = ""
- 
     for i in range(len(input_str)):
         char = input_str[i]
         if (char.isupper()):
